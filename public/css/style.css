@@ -1,0 +1,134 @@
+#_r_rzsian_home{
+    /*background-image: url("../img/background.jpg");*/
+}
+
+#_r_rzsian_home ._r_nav_wrap{
+    padding:20px 20px 0;
+}
+
+#_r_rzsian_home ._r_nav_wrap a{
+    color: #000;
+    font-weight: 500;
+}
+
+#_r_rzsian_home ._r_nav_wrap img{
+    height: 45px;
+    border-radius: 50%;
+}
+
+
+._r_rzsian_sitelogo_wrap ._r_rzsian_sitelogo img{
+
+  width: 35%;
+  height: 300px;
+}
+
+._r_rzsian_sitelogo_wrap ._r_rzsian_sitelogo{
+  text-align: center;
+}
+
+
+._r_rzsian_allsite_wrap ._r_rzsian_allsite{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 50px;
+}
+
+._r_rzsian_allsite_wrap ._r_rzsian_site{
+    height: 112px;
+    width: 112px;
+    padding: 15px 7px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+._r_rzsian_allsite_wrap ._r_rzsian_allsite a{
+    text-decoration: none;
+    color: #111;
+}
+
+._r_rzsian_allsite_wrap ._r_rzsian_site:hover,
+._r_rzsian_allsite_wrap ._r_rzsian_site:active,
+._r_rzsian_allsite_wrap ._r_rzsian_site:visited{
+    background-color: rgba(33, 32, 36, 0.06);
+}
+
+._r_rzsian_allsite_wrap ._r_rzsian_site img{
+    width: 50%;
+}
+
+._r_rzsian_allsite_wrap ._r_rzsian_site p{
+    padding-top: 15px;
+    font-size: 13px;
+}
+
+._r_rzsian_sitetitle_wrap ._r_rzsian_sitetitle{
+  text-align: center;
+  font-family: 'Srisakdi', cursive;
+  color: red;
+}
+
+/*edit information page*/
+
+#modalLRForm a, a.disabled:hover, a:disabled:hover{
+    color: #000;
+}
+
+/*edit information page end*/
+
+/*all student*/
+#all_student{
+    margin-top: 40px;
+}
+#all_student .md-form{
+    margin-top: 0px;
+}
+
+._r_rzsian_all_student_wrap{
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px rgba(0,0,0,.2);
+    padding: 10px;
+}
+
+._r_rzsian_all_student_wrap ._r_rzsian_BatchName{
+    background: #00c544;
+}
+
+._r_rzsian_all_student_wrap .owl-nav{
+    position: absolute;
+    top: -11%;
+    right: 1%;
+}
+
+._r_rzsian_all_student_wrap .owl-nav .owl-prev{
+    padding-right: 20px !important;
+}
+
+._r_rzsian_all_student_wrap .owl-dots{
+    position: absolute;
+}
+
+/*._r_rzsian_all_student_wrap .col-md-4{
+    padding-right: 0;
+}*/
+
+._r_rzsian_batch_wise_student img{
+    height: 180px;
+}
+
+._r_rzsian_batch_wise_student{
+    margin: 2px 0px;
+    padding-bottom: 20px;
+}
+._r_rzsian_batch_wise_student h5{
+    font-size: 15px;
+}
+._r_rzsian_batch_wise_student p{
+    margin-bottom: 2px;
+}
+._r_rzsian_batch_wise_student{
+    text-align: center;
+}
+/*all student end*/
